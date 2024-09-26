@@ -8,7 +8,6 @@ body {
 header {
     background-color: #F5F0FE;
     padding: 30px;
-    /* height: 600px; */
 }
 
 button {
@@ -17,7 +16,7 @@ button {
     border-radius: 50px;
     border: none;
     padding: 16px 45px;
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: 400;
     transition: 0.3s;
     margin-top: 36px;
@@ -26,25 +25,23 @@ button:hover {
     background-color: #6739C6;
 
 }
+section {
+    padding: 50px;
+}
 
 .title{
     background-color: #A17AF0;
-
     border-radius: 50px;
-
     display: table;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
-    /* align-items: center; */
     vertical-align: middle;
 }
 
 .title h2{
-
     color: #fff;
-
     text-align: center;
     padding: 8px 35px;
 
@@ -52,15 +49,19 @@ button:hover {
 
 h3 {
     color: #344054;
-    font-size: 30px;
+    font-size: 1.9em;
     font-weight: 600;
     text-align: center;
     margin-bottom: 50px;
 }
  p {
-    color: 344054;
+    color: #344054;
     font-weight: 400;
     line-height: normal;
+    margin: 20px 0;
+ }
+ p b {
+    font-weight: 600;
  }
 
 /* HOME */
@@ -71,7 +72,7 @@ h3 {
     margin: auto;
     margin-bottom: 25px;
     padding: 15px;
-    font-size: 15px;
+    font-size: 1em;
 
     display: flex;
     justify-content: space-around;
@@ -96,7 +97,7 @@ h3 {
 }
 #home nav button {
     padding: 12px 30px;
-    font-size: 15px;
+    font-size: 1em;
     margin: 0;
 }
 
@@ -109,15 +110,15 @@ h3 {
     font-family: "Baloo 2", sans-serif;
     font-weight: 800;
     color: #5C5C5C;
-    font-size: 54px;
+    font-size: 3.5em;
 }
 
 #home .hero-section h1 span {
     color: #A17AF0;
-    font-size: 62px;
+    font-size: 1.1em;
 }
 #home .hero-section p {
-    font-size: 20px;
+    font-size: 1.25em;
     margin-top: 46px;
     color: #5C5C5C;
     line-height: normal;
@@ -135,7 +136,21 @@ h3 {
 
 /* ABOUT US */
 
+#about img {
+    width: 70%;
+    float: right;
+    margin-right: 50px;
+}
+#about .text-about {
+    margin: 75px 0px;
+}
+ #about p {
+    font-size: 1.25em;
+ }
 
+ #about p span {
+    color: #8554E8;
+ }
 
 /* TESTIMONIALS  */
 #testimonial {
@@ -145,6 +160,34 @@ h3 {
 
 
 /* FINAL SECTION  */
+
+#final img {
+    width: 70%;
+    float: right;
+    margin-right: 50px;
+}
+
+#final .text-final {
+    margin: 60px 0px;
+}
+
+#final h3 {
+    text-align: left;
+    margin-bottom: 36px;
+}
+
+#final p {
+    font-size: 1.25em;
+ }
+
+ #final p span {
+    color: #8554E8;
+ }
+
+ #final button {
+    margin-top: 30px;
+ }
+
 
 
 /* FOOTER  */
