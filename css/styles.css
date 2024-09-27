@@ -6,7 +6,9 @@ body {
 }
 
 header {
-    background-color: #F5F0FE;
+    /* background-color: #F5F0FE; */
+    background: rgb(213,195,247);
+    background: linear-gradient(180deg, rgba(213,195,247,1) 0%, rgba(245,240,254,1) 100%);
     padding: 30px;
 }
 
@@ -32,12 +34,10 @@ section {
 .title{
     background-color: #A17AF0;
     border-radius: 50px;
-    display: table;
+    width: fit-content;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 20px;
-    text-align: center;
-    vertical-align: middle;
 }
 
 .title h2{
@@ -57,7 +57,7 @@ h3 {
  p {
     color: #344054;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.3em;
     margin: 20px 0;
  }
  p b {
@@ -92,9 +92,9 @@ h3 {
 }
 
 #home nav ul li:hover {
-    padding: 0 15px;
     color: #8554E8;
 }
+
 #home nav button {
     padding: 12px 30px;
     font-size: 1em;
@@ -151,6 +151,51 @@ h3 {
  #about p span {
     color: #8554E8;
  }
+
+
+/* FEATURES */
+
+#features .cont-features {
+    margin: 50px 0 100px 0;
+}
+#features .feature {
+    display: flex;
+    border-radius: 10px;
+    padding: 36px 28px;
+    margin-bottom: 24px;
+    transition: 0.3s;
+}
+
+#features .feature:hover {
+    background-color: #F5F0FE;
+}
+
+#features .feature img {
+    margin-right: 24px;
+}
+
+#features .feature .feature-text h4 {
+    color: #344054;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+#features .feature .feature-text p {
+    margin: 0;
+    margin-top: 15px;
+}
+.backg {
+    position: absolute;
+    right: 0;    
+    z-index: -1;
+}
+
+.phone{ 
+    width: 20%;
+    position: absolute;
+    right: 210px;
+    margin-top: 20px;
+}
 
 /* TESTIMONIALS  */
 #testimonial {
