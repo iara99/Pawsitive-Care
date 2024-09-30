@@ -28,7 +28,7 @@ button:hover {
 
 }
 section {
-    padding: 50px;
+    padding: 75px 50px;
 }
 
 .title{
@@ -36,7 +36,6 @@ section {
     border-radius: 50px;
     width: fit-content;
     margin: auto;
-    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -194,7 +193,7 @@ h3 {
     width: 20%;
     position: absolute;
     right: 210px;
-    margin-top: 20px;
+    margin-top: 8px;
 }
 
 /* TESTIMONIALS  */
@@ -202,7 +201,44 @@ h3 {
     background-color: #F5F0FE;
 }
 
+.cont-testimonials {
+    display: flex;
+    justify-content: space-around;
+}
+.testimonial {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 24px;
+    width: 390px;
+}
 
+.title-testim {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.title-testim img {
+    max-width: 50px;
+}
+.title-testim p {
+    margin: 2px;
+    margin-left: 12px;
+}
+
+.title-testim p.name {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.title-testim p.owner {
+    color: #667085;
+    font-weight: 400;
+    font-size: 0.85em;
+}
+.text-testim p{ 
+    margin: 0;
+    font-size: 0.95em;
+}
 
 /* FINAL SECTION  */
 
@@ -239,4 +275,34 @@ h3 {
 
 footer {
     background-color: #F5F0FE;
+    padding: 75px 50px 25px 50px;
+}
+footer img.logo {
+    width: 70%;
+}
+footer .cont-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .cont-links h5 {
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+footer .cont-links p{
+    margin: 8px 0;
+}
+footer .cont-links p a {
+    color: #344054;
+    transition: 0.3s;
+}
+footer .cont-links p a:hover {
+    color: #8554E8!important;
+}
+
+footer .copyright {
+    font-size: 0.9em;
+    color: #667085;
+    margin-top: 50px;
 }
