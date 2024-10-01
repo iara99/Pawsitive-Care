@@ -12,7 +12,7 @@
 <body>
     <header id="home">
     
-        <nav class="d-none d-sm-block">
+        <nav class="menu-large">
             <div><img src="img/logo.svg" alt="Logo Pawsitive Care"></div>
             <ul>
                 <li><a href="#home">Inicio</a></li>
@@ -22,17 +22,52 @@
             </ul>
             <button>Descargar App</button>
         </nav>
+        <nav class="menu-small navbar d-block d-md-none">
+            <div class="container-fluid">
+                <img class="logo" src="img/logo.svg" alt="Logo Pawsitive Care">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <img src="img/menu.svg" alt="Boton menu">
+                </button>
+                
+                <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                  <div class="offcanvas-header">
+                    <img class="logo" src="img/logo.svg" alt="Logo Pawsitive Care">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#features">Funcionalidades</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Testimonios</a>
+                      </li>
+                    </ul>
+                    <button class="download">Descargar App</button>
+                  </div>
+                </div>
+              </div>
+        </nav>
         <div class="container-fluid hero-section">
             <div class="row">
-                <div class="col-sm-5">
+                <div class="col-md-5">
+                    <div class="d-block d-md-none">
+                        <img src="img/hero-img-mobile.png" alt="Imagen principal, un gato y un perro con funcionalidades de la app">
+                    </div>
                     <div class="hero-text">
                         <h1>Cuida a tu mascota <br> <span>Como se lo merece</span></h1>
                         <p>Organiza la salud de tu mascota, recibe recordatorios y encuentra veterinarias cercanas, todo en una sola app</p>
                         <button>Descargar App</button>
                     </div>
                 </div>
-                <div class="col-sm-7">
-                    <div class="hero-img d-none d-sm-block">
+                <div class="col-md-7">
+                    <div class="hero-img d-none d-md-block">
                         <img src="img/hero-img.png" alt="Imagen principal, un gato y un perro con funcionalidades de la app">
                     </div>
                 </div>
@@ -104,8 +139,8 @@
                 </div>
                 <div class="col-sm-6">
                     <div>
-                        <img class="backg d-none d-sm-block" src="img/background-features.svg">
-                        <img class="phone d-none d-sm-block" src="img/phone-1.svg">
+                        <img class="backg d-none d-md-block" src="img/background-features.svg">
+                        <img class="phone d-none d-md-block" src="img/phone-1.svg">
                     </div>
                 </div>
             </div>

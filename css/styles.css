@@ -64,7 +64,7 @@ h3 {
  }
 
 /* HOME */
-#home nav {
+#home nav.menu-large {
     background-color: #fff;
     width: 75%;
     border-radius: 50px;
@@ -80,21 +80,21 @@ h3 {
     flex-wrap: nowrap;
 }
 
-#home nav ul {
+#home nav.menu-large ul {
     display: inline-flex;
 }
-#home nav ul li {
+#home nav.menu-large ul li {
     padding: 0 15px;
     color: #344054;
     font-weight: 500;
     transition: 0.3s;
 }
 
-#home nav ul li:hover {
+#home nav.menu-large ul li:hover {
     color: #8554E8;
 }
 
-#home nav button {
+#home nav.menu-large button {
     padding: 12px 30px;
     font-size: 1em;
     margin: 0;
