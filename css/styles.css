@@ -21,10 +21,11 @@ button {
     font-size: 1.3em;
     font-weight: 400;
     transition: 0.3s;
-    margin-top: 36px;
+    margin-top: 20px;
 }
 button:hover {
     background-color: #6739C6;
+    padding: 20px 50px;
 
 }
 section {
@@ -109,7 +110,7 @@ h3 {
     font-family: "Baloo 2", sans-serif;
     font-weight: 800;
     color: #5C5C5C;
-    font-size: 3.5em;
+    font-size: 3.2em;
 }
 
 #home .hero-section h1 span {
@@ -118,7 +119,7 @@ h3 {
 }
 #home .hero-section p {
     font-size: 1.25em;
-    margin-top: 46px;
+    margin-top: 20px;
     color: #5C5C5C;
     line-height: normal;
 }
@@ -183,7 +184,7 @@ h3 {
     margin: 0;
     margin-top: 15px;
 }
-.backg {
+/* .backg {
     position: absolute;
     right: 0;    
     z-index: -1;
@@ -196,9 +197,25 @@ h3 {
     margin-top: 8px;
 }
 
+ */
+
 .cont-phone {
     position: absolute;
     right: 0;
+}
+.phone{ 
+    width: 30%;
+    position: relative;
+    right: -315px;
+    float: right;
+
+}
+.backg {
+    position: relative;
+    right: 0;
+    width: 55%;
+    float: right;
+    z-index: -1;
 }
 
 /* TESTIMONIALS  */
