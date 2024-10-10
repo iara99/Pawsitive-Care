@@ -22,10 +22,11 @@ button {
     font-weight: 400;
     transition: 0.3s;
     margin-top: 20px;
+    box-shadow:2px 4px 12px #42257e59;
 }
 button:hover {
     background-color: #6739C6;
-    padding: 20px 50px;
+    transform: scale(1.05);
 
 }
 section {
@@ -223,15 +224,15 @@ h3 {
     background-color: #F5F0FE;
 }
 
-.cont-testimonials {
+/* .cont-testimonials {
     display: flex;
     justify-content: space-around;
-}
+} */
 .testimonial {
     background-color: #fff;
     border-radius: 5px;
     padding: 24px;
-    width: 390px;
+    /* width: 390px; */
 }
 
 .title-testim {
@@ -241,6 +242,7 @@ h3 {
 }
 .title-testim img {
     max-width: 50px;
+    vertical-align: middle;
 }
 .title-testim p {
     margin: 2px;
@@ -261,6 +263,19 @@ h3 {
     margin: 0;
     font-size: 0.95em;
 }
+
+
+
+  .swiper-pagination {
+    position: relative;
+    margin-top: 40px;
+    bottom: auto;
+  }
+  .swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+    background-color: #A17AF0;
+  }
 
 /* FINAL SECTION  */
 
