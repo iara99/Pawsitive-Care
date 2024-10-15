@@ -189,22 +189,22 @@ h3 {
     position: absolute;
     right: 0;    
     z-index: -1;
-}
+} */
 
 .phone{ 
-    width: 20%;
-    position: absolute;
-    right: 210px;
-    margin-top: 8px;
+    /* width: 20%; */
+    /* position: absolute;
+    right: 210px; */
+    margin: 20px 100px;
 }
 
- */
+
 
 .cont-phone {
     position: absolute;
     right: 0;
 }
-.phone{ 
+/* .phone{ 
     width: 30%;
     position: relative;
     right: -315px;
@@ -217,7 +217,7 @@ h3 {
     width: 55%;
     float: right;
     z-index: -1;
-}
+} */
 
 /* TESTIMONIALS  */
 #testimonial {
@@ -233,6 +233,7 @@ h3 {
     border-radius: 5px;
     padding: 24px;
     /* width: 390px; */
+    box-shadow: 0px 4px 12px #42257e20;
 }
 
 .title-testim {

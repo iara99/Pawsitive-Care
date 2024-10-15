@@ -1,9 +1,8 @@
-console.log ("se deberia ejecutar")
 const sr = ScrollReveal({
     origin: 'top',
     distance: '40px',
     duration: 1500,
-    // reset: true
+    reset: false,
 })
 
 sr.reveal('.hero-text', {delay:150});
@@ -25,39 +24,7 @@ sr.reveal('.img-final', {delay:450});
 
 
 
-// TESTIMONIALS OWL CAROUSEL 
-
-// $('.owl-carousel').owlCarousel({
-//     center: true,
-//     items:3,
-//     loop:true,
-//     margin:10,
-//     responsive:{
-//         600:{
-//             items:3
-//         }
-//     }
-// });
-
-// $('.owl-carousel').owlCarousel({
-//     center: true,
-//     loop:true,
-//     margin:10,
-//     nav:true,
-//     responsive:{
-//         0:{
-//             items:1
-//         },
-//         600:{
-//             items:3
-//         },
-//         1000:{
-//             items:5
-//         }
-//     }
-// })
-
-
+// TESTIMONIALS CAROUSEL 
 
 const swiper = new Swiper('.testimonials-slider', {
     // Optional parameters
@@ -66,11 +33,12 @@ const swiper = new Swiper('.testimonials-slider', {
     slidesPerView: 1,
     spaceBetween: 20,
   
-    // If we need pagination
+    // pagination
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
     },
+    // responsive
     breakpoints: {
         768: {
           slidesPerView: 2,
