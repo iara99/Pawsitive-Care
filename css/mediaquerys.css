@@ -19,41 +19,52 @@
         padding: 40px 20px;
     }
 
-    nav.menu-small {
-        padding: 15px 10px;
-    }
-
-    nav.menu-small .logo {
-        width: 275px;
-    }
-
-    nav.menu-small button.navbar-toggler {
-        margin: 0;
+    nav.nav-small .container-menu-small{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         padding: 10px;
-        border-radius: 0;
-        border: none;
-        background: none;
-        box-shadow: none;
-    }
-
-    nav.menu-small .offcanvas {
-        background-color: #F5F0FE;
-    }
-
-    nav.menu-small button.download {
-        margin: 20px 0;
+      }
+    
+      nav.nav-small .nav_toggle {
+        font-size: 1.25rem;
+        cursor: pointer;
+      }
+    
+      nav.nav-small .nav_list {
+        margin-top: 20px;
+      }
+    
+      nav.nav-small .nav_item {
+        padding: 15px 0;
+      }
+    
+      nav.nav-small .nav_link {
+        color: #344054;
+        font-weight: 500;
+        transition: 0.3s;
+        padding: 10px;
+      }
+      
+      nav.nav-small .nav_link:hover {
+        color: #8554E8;
+      }
+    
+      nav.nav-small button.download {
+        margin: 20px auto;
         width: 100%;
     }
+    
+      nav.nav-small .nav_close button {
+        margin: 0;
+        box-shadow: none;
+        background-color: #f5f0fe;
+      }
+      nav.nav-small .nav_close button:hover {
+        background-color: #f5f0fe;
+      }
 
-    nav.menu-small .nav-item {
-        padding: 5px 0;
-    }
-
-
-    nav.menu-small .nav-item a:hover {
-        color: #8554E8;
-    }
-
+    
     /* HOME  */
     header {
         padding: 0;
@@ -168,40 +179,7 @@
     }
 
     /* NAV  */
-    nav.menu-small {
-        padding: 25px 20px;
-    }
-
-    nav.menu-small .logo {
-        width: 300px;
-    }
-
-    nav.menu-small button.navbar-toggler {
-        margin: 0;
-        padding: 10px;
-        border-radius: 0;
-        border: none;
-        background: none;
-        box-shadow: none;
-    }
-
-    nav.menu-small .offcanvas {
-        background-color: #F5F0FE;
-    }
-
-    nav.menu-small button.download {
-        margin: 20px 0;
-        width: 100%;
-    }
-
-    nav.menu-small .nav-item {
-        padding: 5px 0;
-    }
-
-
-    nav.menu-small .nav-item a:hover {
-        color: #8554E8;
-    }
+    
 
     /* HOME  */
     .container {
@@ -319,40 +297,7 @@
     }
 
     /* NAV  */
-    nav.menu-small {
-        padding: 25px 20px;
-    }
 
-    nav.menu-small .logo {
-        width: 300px;
-    }
-
-    nav.menu-small button.navbar-toggler {
-        margin: 0;
-        padding: 10px;
-        border-radius: 0;
-        border: none;
-        background: none;
-        box-shadow: none;
-    }
-
-    nav.menu-small .offcanvas {
-        background-color: #F5F0FE;
-    }
-
-    nav.menu-small button.download {
-        margin: 20px 0;
-        width: 100%;
-    }
-
-    nav.menu-small .nav-item {
-        padding: 5px 0;
-    }
-
-
-    nav.menu-small .nav-item a:hover {
-        color: #8554E8;
-    }
 
         /* HOME  */
         .container {
